@@ -1,0 +1,29 @@
+/*comment*/
+
+/* p:nth-child(3){
+    color: green;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 1000; 
+    font-style: italic;
+    letter-spacing: 10px;
+    line-height: 130px;
+     text-transform: uppercase;
+
+} */
+
+
+/* even odd 2n+1 */
+/* p:nth-child(){ 
+    color: red;
+} */
+
+
+#text{
+    color: red;
+}
+
+.mytext{
+    color: green;
+    background-color: red;
+}
