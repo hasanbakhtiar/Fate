@@ -1,0 +1,82 @@
+/* .box1{ */
+    /* en */
+    /* width: 100px;  */
+    /* hundurluk */
+    /* height: 100px; */
+    /* -------------------- */
+    /* background-color: red; */
+    /* padding: 10px; */
+    /* top - yuxari */
+    /* padding-top: 30px; */
+    /* left -sol */
+    /* padding-left: 50px; */
+    /* right - sag  */
+    /* padding-right: 100px; */
+    /* bottom - asagi */
+    /* padding-bottom: 20px; */
+    /* ------------------ */
+    /* padding: 10px 20px 5px 40px; */
+
+    /* ____________________ */
+
+    /* Margin  */
+/* margin-left: 10px; */
+/* margin-top: 50px; */
+/* margin-bottom: 50px; */
+/* margin-right: 50px; */
+    
+/* } */
+
+/* .box2{ */
+    /* width: 100px;
+    height: 100px; */
+    /* =========color systems============= */
+    /* hex - min-0 max-f */
+    /* 0123456789abcdef */
+    /* min - 000 max - 000000 */
+    /* background-color: #fff555; */
+    /* =========color systems============= */
+
+
+    /* RGB red - green - blue */
+    /* min - 0 max - 255  */
+    /* background-color: rgb(255, 0, 234); */
+
+    /* RGBa -  red green blue alpha */
+    /* 0 - 1 */
+    /* background-color: rgba(255, 0, 0, .1); */
+    /* background: linear-gradient(109deg,  #fff 50%, rgba(0,212,255,1) 100%);; */
+    
+    
+/* } */
+
+
+.box1{
+    /* display: inline; */
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+}
+.box2{
+    display: inline-block;
+    /* margin-left: -10px; */
+    width: 100px;
+    height: 100px;
+    /* background-color: green; */
+    
+}
+
+
+.box{
+    width: 100%;
+    height: 100vh;
+    /* width: 300px;
+    height: 700px; */
+    background-image: url('img/img1.jpg');
+    /* background-size: contain; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
