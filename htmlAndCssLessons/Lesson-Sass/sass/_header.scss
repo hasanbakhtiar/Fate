@@ -1,0 +1,44 @@
+// h1{
+//     color: red;
+// }
+
+
+// header nav ul{
+//     background-color: red;
+// }
+// header nav ul li a{
+//     color: green;
+// }
+
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: $qara;
+    display: flex;
+    align-items: center;
+    .logo{
+        color: white;
+        width: 30%;
+        font-size: 20px;
+        h1{
+            width:100%;
+            @include ortalama();
+        }
+    }
+    nav{
+        display: flex;
+        width: 70%;
+
+        ul{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            li{
+                a{
+                    color: aqua;
+                }
+            }
+        }
+    }
+}
