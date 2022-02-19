@@ -1,0 +1,33 @@
+section{
+//transition -> birbasha
+// transition-delay -> gecikme
+// transition-duration -> erzinde
+// transition-property -> xususiyyeti
+// transition-timing-function -> formasi
+// #div1 {transition-timing-function: linear;}
+// #div2 {transition-timing-function: ease;}
+// #div3 {transition-timing-function: ease-in;}
+// #div4 {transition-timing-function: ease-out;}
+// #div5 {transition-timing-function: ease-in-out;}
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .box{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        // transition-property: width, background;
+        // transition: width 1s, background 22s;
+        transition: 1s;
+        // transition-duration: 1s;
+        // transition-delay: 1s;
+        &:hover{
+            width: 200px;
+            background: green;
+        }
+
+
+    }
+}
