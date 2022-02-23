@@ -1,0 +1,80 @@
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header nav {
+  width: 70%;
+}
+
+header nav ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: aqua;
+}
+
+header nav ul .target {
+  position: relative;
+}
+
+header nav ul .target:hover .submenu {
+  z-index: 2;
+  opacity: 1;
+  -webkit-transition: 1s;
+  transition: 1s;
+  top: 15px;
+}
+
+header nav ul .target .submenu {
+  top: 100px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  opacity: 0;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #eee;
+  width: 100px;
+  height: 100px;
+}
+
+header nav ul .target .submenu li a {
+  color: blueviolet;
+}
+
+section {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 300px;
+  background-color: green;
+}
+/*# sourceMappingURL=style.css.map */

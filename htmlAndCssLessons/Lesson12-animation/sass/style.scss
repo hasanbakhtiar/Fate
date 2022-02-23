@@ -1,0 +1,98 @@
+// .box{
+//     position: relative;
+//     width: 100px;
+//     height: 100px;
+//     background-color: red;
+//     // animation-name: hereket;
+//     // animation-duration: 2s;
+//     // animation-iteration-count: infinite;
+//     // animation-delay: 2s;
+//     animation: hereket 5s infinite;
+// }
+
+// @keyframes hereket{
+//         // from{left:0px} 
+//         // to{left: 300px;}
+
+//         // 0%{left:0px;top:0px;background-color: red;color:white}
+//         // 25%{left: 300px;top:0px;background-color: green;color: yellow;}
+//         // 50%{left: 300px;top: 300px;background-color: rgb(113, 0, 128);color: rgb(0, 38, 255);}
+//         // 75%{left: 0px;top:300px;background-color: rgb(128, 0, 32);color: rgb(0, 255, 255);}
+//         // 100%{left:0px;top:0px;background-color: rgb(21, 128, 0);color: rgb(255, 0, 0);}
+// }
+
+
+.road{
+    width: 100%;
+    height: 300px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .line{
+        width: 100px;
+        height: 10px;
+        background-color: #fff;
+    }
+}
+
+
+
+.box-07{
+    position: absolute;
+    left: 300px;
+    top:10px;
+    .zero-seven{
+    position: relative;
+    transform: rotate(350deg);
+    animation: getdike 4s 1;
+ 
+}
+
+@keyframes getdike {
+    0%{left: 0;}
+    100%{
+        left: 100em;
+    }
+    }
+// .light{
+//     position: absolute;
+//     width: 5px;
+//     height: 4px;
+//     right: 13px;
+//     top: 24px;
+//     background-color: yellow;
+//     animation: xoddaqaqash 1.5s infinite;
+//     @keyframes xoddaqaqash {
+//         0%{
+//             background-color: yellow;
+//         }
+//         100%{
+//                 background-color: red;
+//         }
+//     }
+// }
+
+
+
+
+}
+
+
+
+
+.polis{
+    position: absolute;
+
+    top:-70px;
+
+    animation: verqiragasaxla 5s 1;
+    @keyframes verqiragasaxla {
+        0%{
+            left: 0px;
+        }
+        100%{
+            left: 100em;
+        }
+    }
+}
