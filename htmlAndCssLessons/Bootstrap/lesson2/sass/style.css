@@ -1,0 +1,7 @@
+section .box {
+  width: 150px;
+  height: 300px;
+  border: 1px solid #000;
+  background-color: #eee;
+}
+/*# sourceMappingURL=style.css.map */
