@@ -1,0 +1,44 @@
+.hero{
+    width: 100%;
+    height: 70vh;
+    background-image: url('../img/hero-img.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .hero-text-con{
+        width: 60%;
+        height: 45vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column  ;
+        *{
+            color: #fff;
+        }
+        h1{
+            font-size: 50px;
+            text-align: center;
+            font-weight: bolder;
+            line-height: 70px;
+
+        }
+        p{
+            line-height: 20px;
+            font-size: 15px;
+            color: #757575;
+            text-align: center;
+        }
+        button{
+            width: 115px;
+            height: 47px;
+            background-color: #d21e2b;
+            border-radius: 25px;
+            border: none;
+        }
+
+    }
+}

@@ -1,0 +1,11 @@
+.line{
+    width: 100px;
+    height: 3px;
+    border-radius:25%; 
+    background-color:#d21e2b;
+}
+
+@import 'reset';
+@import 'header';
+@import 'hero';
+@import 'info-box';
