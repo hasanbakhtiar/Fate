@@ -1,0 +1,33 @@
+.bg-hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/rectangle.png");
+  .my-navbg {
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    .active{
+        color: #0057FF !important;
+    }
+    .dropdown-menu {
+      background-color: rgba($color: #000000, $alpha: 0.5);
+    
+      .dropdown-item {
+        &:hover {
+          background-color: #000000;
+        }
+      }
+    }
+    .dropdown-menu[data-bs-popper]{
+        left: -33px;
+    }
+    * {
+      color: #fff;
+      text-transform: uppercase;
+    }
+  }
+}
+#navbarDropdown{
+    text-decoration: underline;
+}
+.dropdown-toggle::after{
+    display: none;
+}

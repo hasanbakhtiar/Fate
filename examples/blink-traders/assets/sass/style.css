@@ -1,0 +1,39 @@
+.bg-hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/rectangle.png");
+}
+
+.bg-hero .my-navbg {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bg-hero .my-navbg .active {
+  color: #0057FF !important;
+}
+
+.bg-hero .my-navbg .dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bg-hero .my-navbg .dropdown-menu .dropdown-item:hover {
+  background-color: #000000;
+}
+
+.bg-hero .my-navbg .dropdown-menu[data-bs-popper] {
+  left: -33px;
+}
+
+.bg-hero .my-navbg * {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#navbarDropdown {
+  text-decoration: underline;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
