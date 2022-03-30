@@ -1,0 +1,23 @@
+.box {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.box::after {
+  content: "";
+  position: absolute;
+  display: block;
+  -webkit-transition: 1s;
+  transition: 1s;
+  bottom: 0;
+  width: 100px;
+  height: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.box:hover::after {
+  height: 100px;
+}
+/*# sourceMappingURL=style.css.map */
